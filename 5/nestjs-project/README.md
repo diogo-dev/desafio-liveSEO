@@ -62,7 +62,7 @@ Aqui está a imagem do resultado do endpoint `GET /users` no Thunder Client:
 <table align="center">
   <tr>
     <td align="center">
-      <img src="/Desafio5.png" alt="Home Page" width="400" />
+      <img src="Desafio5.png" alt="Home Page" width="800" />
     </td>
   </tr>
 </table>

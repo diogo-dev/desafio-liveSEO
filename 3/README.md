@@ -29,7 +29,7 @@ output: Um array de strings com os nomes dos users filtrados (: string[])
 <table align="center">
   <tr>
     <td align="center">
-      <img src="/desafio3.png" alt="Home Page" width="400" />
+      <img src="desafio3.png" alt="Home Page" width="400" />
     </td>
   </tr>
 </table>

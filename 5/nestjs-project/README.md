@@ -67,5 +67,15 @@ Aqui está a imagem do resultado do endpoint `GET /users` no Thunder Client:
   </tr>
 </table>
 
+## Explicação do user.service.ts
+
+Neste arquivo é possível encontrar 3 funções: `create`, `findAll` e `findOne`.
+
+A função `create` foi mantida para criar um novo usuário e ela foi utilizada no arquivo de seed (user.seed.ts) para popular a tabela `user` com alguns dados de teste.
+
+A função `findAll` é responsável por retornar todos os usuários cadastrados no banco de dados. É essa função que o endpoint `GET /users` utiliza para retornar a lista de usuários.
+
+Já a função `findOne` é responsável por retornar um usuário específico, baseado no ID fornecido. Ela já implemente uma lógica de validação para verificar a existência do usuário. Essa é uma função importante, pois sua reusabilidade dentro do próprio serviço é útil caso existisse o CRUD completo da entidade. Ela é utilizada no endpoint `GET /users/:id` para retornar um usuário específico, que não é o objetivo deste desafio, mas foi implementada para demonstrar a estrutura do serviço e a lógica de validação.
+
 
 

@@ -20,14 +20,14 @@ export class UserService {
     return await this.userRepository.find();
   }
 
-  async findOne(email: string): Promise<User> {
+  async findOne(id: string): Promise<User> {
     try {
-      const user = await this.userRepository.findOneOrFail({ where: { email } });
+      const user = await this.userRepository.findOneOrFail({ where: { id } });
       return user;
     } catch (error) {
       // Caso o usuário não seja encontrado, lança uma exceção de not found
       if (error instanceof EntityNotFoundError) {
-        throw new NotFoundException(`Usuário com o email: ${email} não encontrado`);
+        throw new NotFoundException(`Usuário com o ID: ${id} não encontrado`);
       }
       throw error;
     }

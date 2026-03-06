@@ -30,6 +30,9 @@ addEventListener():
 elemento.innerHTML = novo valor
 ```
 
+## index.html
+Esse arquivo é o principal do projeto, onde estão os elementos HTML que compõem a página. Nos elementos de input foram utilizados o atributo `required` para fazer uma validação básica do formulário, e não permitir o envio do formulário caso os campos não estejam preenchidos.
+
 ## Como Rodar o Projeto ?
 
 O projeto pode ser executado das seguintes formas:

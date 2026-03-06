@@ -43,5 +43,13 @@ O projeto pode ser executado das seguintes formas:
 - Execute o seguinte comando no terminal: npx http-server
 
 
+## Resultado Final
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="desafio1.png" alt="Home Page" width="400" />
+    </td>
+  </tr>
+</table>
 
 

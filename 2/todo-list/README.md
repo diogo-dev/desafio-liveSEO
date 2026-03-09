@@ -1,10 +1,10 @@
 # Desafio 2
 
-Antes de começar explicar como eu implementei esse desafio com Vue.js, que compartilhar que esse desafio foi o que me tomou mais tempo, pois nunca tinha trabalhado com Vue.js antes. Então um peguei o dia para aprender Vue.js antes de começar a implementação.
+Antes de começar explicar como eu implementei esse desafio com Vue.js, quero compartilhar que esse desafio foi o que me tomou mais tempo, pois nunca tinha trabalhado com Vue.js antes. Então, eu peguei o dia para aprender Vue.js antes de começar a implementação.
 
 Fiquei bem empolgado com o framework, pois fui aprendendo e comparando suas funcionalidades com as do React. Como, por exemplo, `computed() ~ useMemo()`, `watch() ~ useEffect()` e `ref() ~ useState()`. Isso me ajudou bastante a entender o framework e a implementar o desafio.
 
-Depois que peguei o jeito com as diretivas `v-for`, `v-if`, `v-else`, `v-model`, `v-bind` (:) e `v-on` (@) e então consegui deixar os componentes mais dinâmicos.
+Depois que peguei o jeito com as diretivas `v-for`, `v-if`, `v-else`, `v-model`, `v-bind` (:) e `v-on` (@), consegui deixar os componentes mais dinâmicos.
 
 Sem mais delongas, vamos para a explicação do código.
 
